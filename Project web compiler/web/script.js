@@ -12,8 +12,9 @@ function getInputtedCode(GetPythonResult) {
 
 btn.addEventListener('click', function(e){
     InputtedCode = code.value;
-    re = eel.MainFunc(InputtedCode)
-    getInputtedCode(re);
+    eel.MainFunc(InputtedCode)(e => {
+        getInputtedCode(e)
+    })
 })
 
 
