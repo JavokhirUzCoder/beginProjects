@@ -15,7 +15,7 @@ def MainFunc(link):
         stream.download()
 
     except:
-        return "Somthing went wrong!"
+        return "Something is wrong"
     else:
-        return "Downloaded completed successfully"
+        return "Download completed successfully"
 eel.start("index.html", size =(400, 300))

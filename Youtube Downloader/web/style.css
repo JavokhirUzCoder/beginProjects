@@ -22,5 +22,34 @@ h2{
     margin: 20px;
 }
 input{
-    background: ;
+    outline: none !important;
+    color: #fcfcfc;
+    width: 80%;
+    height: 40px;
+    padding: 5px;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.3px);
+    -webkit-backdrop-filter: blur(12.3px);
+    border: none;
+}
+button{
+    outline: none !important;
+    color: #fcfcfc;
+    width: 40%;
+    height: 40px;
+    padding: 5px;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.3px);
+    -webkit-backdrop-filter: blur(12.3px);
+    border: 2px #f8e31f double;
+    margin:10px;
+    cursor: pointer;
+    color: #fcfcfc;
+
 }
