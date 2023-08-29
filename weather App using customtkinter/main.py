@@ -11,9 +11,6 @@ def main(Country):
     global GradusInt,Name
     GradusInt.set("")
     Name.set("")
-    if Country.lower() == "zarina":
-        # GradusInt.set("")
-        Name.set("I love You ❤️")
     else:
         try:
             weather_data = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={Country}&units=imperial&APPID={api_key}")
